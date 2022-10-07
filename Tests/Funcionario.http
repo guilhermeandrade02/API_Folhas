@@ -1,0 +1,29 @@
+### Listar todos os Funcionários
+GET https://localhost:5001/api/funcionario/listar
+
+### Buscar um Funcionário
+GET https://localhost:5001/api/funcionario/buscar/123
+
+### Cadastrar um nono Funcionário
+POST https://localhost:5001/api/funcionario/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Diogo Steinke Decon",
+    "cpf" : "12312312317",    
+    "email" : "sds@4huhu",
+    "salario" : 1100
+}
+
+### Deletar o  Funcionário
+DELETE https://localhost:5001/api/funcionario/deletar/9
+
+### Alterar o FUncionario
+PATCH https://localhost:5001/api/funcionario/alterar
+Content-Type: application/json
+
+{
+    "funcionarioid" : 24,
+    "nome" : "diogo deconto novos",
+    "cpf" : "1245"
+}

@@ -1,0 +1,12 @@
+### Listar os funcionários
+GET https://localhost:5001/api/nova/listar
+### Cadastrar folha
+POST https://localhost:5001/api/nova/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Diogo Steinke Desconto",
+    "cpf" : "12312312312",    
+    "email" : "asd@asd",
+    "salario" : 1000
+}
